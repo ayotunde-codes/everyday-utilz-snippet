@@ -1,0 +1,68 @@
+{
+  "is empty string": {
+    "prefix": "*!isEmptyString",
+    "body": "isEmptyString(${1:string})",
+    "description": "check if string is empty, return true or false",
+    "scope": "javascript,typescript,javascriptreact,typescriptreact, vue"
+  },
+  "is valid email": {
+    "scope": "javascript,typescript, javascriptreact,typescriptreact, vue",
+    "prefix": "eu_isEmail",
+    "body": "isEmail(${1:string})",
+    "description": "Validate email"
+  },
+  "delete specific index in an array": {
+    "scope": "javascript,typescript, javascriptreact,typescriptreact, vue",
+    "prefix": "eu_deleteIndex",
+    "body": "deleteIndex(${1:array}, ${2:index})",
+    "description": "Delete specific index in an array"
+  },
+  "is a country": {
+    "scope": "javascript,typescript, javascriptreact,typescriptreact, vue",
+    "prefix": "eu_isCountry",
+    "body": "isCountry(${1:string})",
+    "description": "Check if string is a country"
+  },
+  "change string to array": {
+    "scope": "javascript,typescript, javascriptreact,typescriptreact, vue",
+    "prefix": "eu_stringToArray",
+    "body": "stringToArray(${1:string})",
+    "description": "Change string to array"
+  },
+  "check if the entire string is in uppercase": {
+    "scope": "javascript,typescript, javascriptreact,typescriptreact, vue",
+    "prefix": "eu_isUpperCase",
+    "body": "isUpperCase(${1:string})",
+    "description": "Check if the entire string is in uppercase"
+  },
+  "check if the entire string is in lowercase": {
+    "scope": "javascript,typescript, javascriptreact,typescriptreact, vue",
+    "prefix": "eu_isLowerCase",
+    "body": "isLowerCase(${1:string})",
+    "description": "Check if the entire string is in lowercase"
+  },
+  "reverse a string value": {
+    "scope": "javascript,typescript, javascriptreact,typescriptreact, vue",
+    "prefix": "eu_reverseString",
+    "body": "reverseString(${1:string})",
+    "description": "Reverse a string value"
+  },
+  "make first letter of a string lowercase": {
+    "scope": "javascript,typescript, javascriptreact,typescriptreact, vue",
+    "prefix": "eu_lowerCaseFirst",
+    "body": "lowerCaseFirst(${1:string})",
+    "description": "Make first letter of a string lowercase"
+  },
+  "make first letter of a string uppercase": {
+    "scope": "javascript,typescript, javascriptreact,typescriptreact, vue",
+    "prefix": "eu_upperCaseFirst",
+    "body": "upperCaseFirst(${1:string})",
+    "description": "Make first letter of a string uppercase"
+  },
+  "make first letter  of all words in a string  to uppercase": {
+    "scope": "javascript,typescript, javascriptreact,typescriptreact, vue",
+    "prefix": "eu_upperCaseAllFirst",
+    "body": "upperCaseAllFirst(${1:string})",
+    "description": "Make first letter  of all words in a string  to uppercase"
+  }
+}
